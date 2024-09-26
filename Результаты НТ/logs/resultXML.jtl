@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<sample t="9" it="201" lt="0" ct="0" ts="1727184430256" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1147" sby="766" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="9" it="0" lt="9" ct="0" ts="1727184430455" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1147" sby="766" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:27:10 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 313
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184430462,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 10\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 10\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Спасибо за работу!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%A1%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE+%D0%B7%D0%B0+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="12" it="195" lt="0" ct="0" ts="1727184434896" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1142" sby="751" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="12" it="0" lt="12" ct="0" ts="1727184435091" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1142" sby="751" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:27:14 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 298
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184435102,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 10\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 10\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Лучшие на рынке&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%9B%D1%83%D1%87%D1%88%D0%B8%D0%B5+%D0%BD%D0%B0+%D1%80%D1%8B%D0%BD%D0%BA%D0%B5</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="2" it="0" lt="1" ct="0" ts="1727184439323" s="false" lb="CountValuesBookAfterDelete" rc="200" rm="OK" tn="clearGuestbookHistory 3-1" dt="text" de="UTF-8" by="12" sby="0" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <assertionResult>
+    <name>CheckNullDataDB</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /0/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">shared:false, driver:org.h2.Driver, url:jdbc:h2:~/guestbook;AUTO_SERVER=TRUE, user:sa</responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">COUNT(*)
+15
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] Select count(*) from BOOK
+
+</samplerData>
+</sample>
+<sample t="8" it="163" lt="0" ct="0" ts="1727184465371" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1147" sby="766" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="8" it="0" lt="8" ct="0" ts="1727184465533" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1147" sby="766" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:27:44 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 313
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184465541,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Спасибо за работу!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%A1%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE+%D0%B7%D0%B0+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="7" it="1" lt="0" ct="0" ts="1727184475612" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1147" sby="766" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="7" it="0" lt="7" ct="0" ts="1727184475613" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1147" sby="766" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:27:54 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 313
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184475620,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Спасибо за работу!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%A1%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE+%D0%B7%D0%B0+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="7" it="146" lt="0" ct="0" ts="1727184485980" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1135" sby="734" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="7" it="0" lt="7" ct="0" ts="1727184486126" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1135" sby="734" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:28:05 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 281
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184486131,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Благодарим!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%B8%D0%BC%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="8" it="134" lt="0" ct="0" ts="1727184505475" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1147" sby="768" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="8" it="0" lt="8" ct="0" ts="1727184505608" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1147" sby="768" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:28:24 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 315
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184505615,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Отличная компания&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%9E%D1%82%D0%BB%D0%B8%D1%87%D0%BD%D0%B0%D1%8F+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="8" it="130" lt="0" ct="0" ts="1727184509318" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1128" sby="713" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="8" it="0" lt="8" ct="0" ts="1727184509448" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1128" sby="713" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:28:29 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 260
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184509455,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Неплохо&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%9D%D0%B5%D0%BF%D0%BB%D0%BE%D1%85%D0%BE</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="7" it="122" lt="0" ct="0" ts="1727184526382" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1154" sby="785" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="7" it="0" lt="7" ct="0" ts="1727184526504" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1154" sby="785" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:28:46 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 332
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184526510,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Сломали все что могли!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%A1%D0%BB%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8+%D0%B2%D1%81%D0%B5+%D1%87%D1%82%D0%BE+%D0%BC%D0%BE%D0%B3%D0%BB%D0%B8%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="7" it="116" lt="0" ct="0" ts="1727184542599" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1151" sby="778" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="7" it="0" lt="7" ct="0" ts="1727184542714" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1151" sby="778" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:29:02 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 325
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184542721,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Можно сделать лучше!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%9C%D0%BE%D0%B6%D0%BD%D0%BE+%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D1%82%D1%8C+%D0%BB%D1%83%D1%87%D1%88%D0%B5%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="8" it="108" lt="0" ct="0" ts="1727184557818" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1147" sby="766" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="8" it="0" lt="8" ct="0" ts="1727184557925" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1147" sby="766" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:29:17 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 313
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184557933,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Спасибо за работу!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%A1%D0%BF%D0%B0%D1%81%D0%B8%D0%B1%D0%BE+%D0%B7%D0%B0+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%83%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="2" it="0" lt="1" ct="0" ts="1727184559326" s="false" lb="CountValuesBookAfterDelete" rc="200" rm="OK" tn="clearGuestbookHistory 3-1" dt="text" de="UTF-8" by="12" sby="0" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <assertionResult>
+    <name>CheckNullDataDB</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Test failed: text expected to contain /0/</failureMessage>
+  </assertionResult>
+  <responseHeader class="java.lang.String">shared:false, driver:org.h2.Driver, url:jdbc:h2:~/guestbook;AUTO_SERVER=TRUE, user:sa</responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">COUNT(*)
+29
+</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+  <samplerData class="java.lang.String">[Select Statement] Select count(*) from BOOK
+
+</samplerData>
+</sample>
+<sample t="9" it="108" lt="0" ct="0" ts="1727184559736" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1147" sby="768" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="9" it="0" lt="9" ct="0" ts="1727184559844" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1147" sby="768" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:29:19 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 315
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184559852,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Отличная компания&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%9E%D1%82%D0%BB%D0%B8%D1%87%D0%BD%D0%B0%D1%8F+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="7" it="107" lt="0" ct="0" ts="1727184561997" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1129" sby="716" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="7" it="0" lt="7" ct="0" ts="1727184562104" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1129" sby="716" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:29:22 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 263
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184562110,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Отстой!!!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%9E%D1%82%D1%81%D1%82%D0%BE%D0%B9%21%21%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="7" it="103" lt="0" ct="0" ts="1727184576595" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1154" sby="785" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="7" it="0" lt="7" ct="0" ts="1727184576698" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1154" sby="785" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:29:36 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 332
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184576704,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Сломали все что могли!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%A1%D0%BB%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8+%D0%B2%D1%81%D0%B5+%D1%87%D1%82%D0%BE+%D0%BC%D0%BE%D0%B3%D0%BB%D0%B8%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="7" it="100" lt="0" ct="0" ts="1727184582402" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1128" sby="713" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="7" it="0" lt="7" ct="0" ts="1727184582502" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1128" sby="713" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:29:42 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 260
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184582509,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Неплохо&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%9D%D0%B5%D0%BF%D0%BB%D0%BE%D1%85%D0%BE</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="7" it="99" lt="0" ct="0" ts="1727184585832" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1147" sby="768" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="7" it="0" lt="7" ct="0" ts="1727184585931" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1147" sby="768" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:29:45 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 315
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184585936,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Отличная компания&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%9E%D1%82%D0%BB%D0%B8%D1%87%D0%BD%D0%B0%D1%8F+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="8" it="92" lt="0" ct="0" ts="1727184611504" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1147" sby="768" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+  <httpSample t="8" it="0" lt="8" ct="0" ts="1727184611595" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1147" sby="768" sc="1" ec="1" ng="1" na="2" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:30:10 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 315
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184611602,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Прекрасная работа&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%9F%D1%80%D0%B5%D0%BA%D1%80%D0%B0%D1%81%D0%BD%D0%B0%D1%8F+%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="6" it="91" lt="0" ct="0" ts="1727184621147" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1135" sby="734" sc="1" ec="1" ng="1" na="1" hn="DESKTOP-575QDSS">
+  <httpSample t="6" it="0" lt="6" ct="0" ts="1727184621238" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1135" sby="734" sc="1" ec="1" ng="1" na="1" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:30:21 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 281
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184621238,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Благодарим!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D0%B8%D0%BC%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="12" it="88" lt="0" ct="0" ts="1727184624713" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1128" sby="713" sc="1" ec="1" ng="1" na="1" hn="DESKTOP-575QDSS">
+  <httpSample t="12" it="0" lt="12" ct="0" ts="1727184624801" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1128" sby="713" sc="1" ec="1" ng="1" na="1" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:30:24 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 260
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184624800,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Неплохо&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%9D%D0%B5%D0%BF%D0%BB%D0%BE%D1%85%D0%BE</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+<sample t="6" it="91" lt="0" ct="0" ts="1727184630804" s="false" lb="sendComm" rc="500" rm="Number of samples in transaction : 1, number of failing samples : 1" tn="sendComment 2-1" dt="" de="" by="1154" sby="785" sc="1" ec="1" ng="1" na="1" hn="DESKTOP-575QDSS">
+  <httpSample t="6" it="0" lt="6" ct="0" ts="1727184630895" s="false" lb="sendComment" rc="500" rm="" tn="sendComment 2-1" dt="text" de="UTF-8" by="1154" sby="785" sc="1" ec="1" ng="1" na="1" hn="DESKTOP-575QDSS">
+    <responseHeader class="java.lang.String">HTTP/1.1 500 
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Tue, 24 Sep 2024 13:30:30 GMT
+Connection: close
+</responseHeader>
+    <requestHeader class="java.lang.String">Connection: keep-alive
+Referer: http://localhost:8080/guestbook.html
+Accept-Language: ru-RU,ru;q=0.8,en-US;q=0.5,en;q=0.3
+Origin: http://localhost:8080
+Priority: u=0
+Accept-Encoding: gzip, deflate
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Content-Length: 332
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Host: localhost:8080
+</requestHeader>
+    <responseData class="java.lang.String">{&quot;timestamp&quot;:1727184630894,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;exception&quot;:&quot;org.h2.jdbc.JdbcSQLException&quot;,&quot;message&quot;:&quot;Значение слишком длинное для поля \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;\nValue too long for column \&quot;USER VARCHAR(30) SELECTIVITY 57\&quot;: \&quot;STRINGDECODE(&apos;\\u0426\\u0435\\u043d\\u0442\\u0440\\u0430\\u043b\\u044c\\u043d\\u044b\\u0439 \\u0431\\u0430\\u043d\\u043a \\u0420\\u043e\\u0441\\u04... (37)\&quot;; SQL statement:\nINSERT INTO book(date, user, text) VALUES(NOW(), &apos;Центральный банк Российской Федерации&apos;, &apos;Сломали все что могли!&apos;) [22001-194]&quot;,&quot;path&quot;:&quot;/service/guestbook&quot;}</responseData>
+    <responseFile class="java.lang.String"></responseFile>
+    <cookies class="java.lang.String"></cookies>
+    <method class="java.lang.String">POST</method>
+    <queryString class="java.lang.String">user=%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9+%D0%B1%D0%B0%D0%BD%D0%BA+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9+%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8&amp;text=%D0%A1%D0%BB%D0%BE%D0%BC%D0%B0%D0%BB%D0%B8+%D0%B2%D1%81%D0%B5+%D1%87%D1%82%D0%BE+%D0%BC%D0%BE%D0%B3%D0%BB%D0%B8%21</queryString>
+    <java.net.URL>http://localhost:8080/service/guestbook</java.net.URL>
+  </httpSample>
+  <responseHeader class="java.lang.String"></responseHeader>
+  <requestHeader class="java.lang.String"></requestHeader>
+  <responseData class="java.lang.String">Non-TEXT response data, cannot record: ()</responseData>
+  <responseFile class="java.lang.String"></responseFile>
+</sample>
+
+</testResults>
